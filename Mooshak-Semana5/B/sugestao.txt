@@ -1,0 +1,11 @@
+usar uma matriz do formato Horas (24-começa em 0 até 23) x Agentes
+começar tudo a 0 e aumentar 1 quando está no restaurante!
+
+int mat[h][a];
+ou se quisermos inicializar logo tudo
+int mat[24][100] = {0};
+
+
+for(int i=0;i<a;i++)
+if(mat[h][i]){
+printf(" %d",i);

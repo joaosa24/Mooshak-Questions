@@ -1,0 +1,10 @@
+usar dois arrays
+char nomes[40][21]={0};
+int quantos=0;
+nomes[0]=Enguia;
+int contagem[46]={0};
+usar função auxiliar:
+int procura(char nomes[40][21], int quantos, char *nome);
+comparar (strcmp) se é igual a este, senão vai para a proxima e analisa outra vez
+usar a strcpy para copiar as strings!
+
